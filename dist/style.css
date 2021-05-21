@@ -63,7 +63,7 @@ body{
   .box li a:hover{
     color: #b9b9b9;
   }
-  
+
    .wrapper{
     margin: auto;
     max-width: 75rem
@@ -95,7 +95,7 @@ main{
 
 
 @media screen and (min-width:640px){
-  
+
 .flex-container{display:flex
 }
 }
@@ -117,7 +117,3 @@ main{
 .footer{
   background:#fff
 }
-
-
-
-
