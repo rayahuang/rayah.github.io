@@ -73,7 +73,7 @@ body{
 
 
 
-aside,footer,header,main,section{
+footer,header,main,section{
   display: block;
   margin:0;
   padding:1.25rem;
@@ -105,12 +105,9 @@ main{
   background:#fff
 }
 
-.sidebar{
-  flex:0 1 300px;
-  background:#fff
-}
 
-.footer,.sidebar{
+
+.footer{
   border:1 px solid #000
 }
 
