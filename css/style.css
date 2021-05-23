@@ -43,14 +43,10 @@ body{
     font-weight: 100;
   }
   .box p{
-    font-size: 90%;
+    font-size: 70%;
     text-align: center;
   }
-  ul{
-    font-size: 90%;
-    margin: 0;
-    padding: 0;
-  }
+
   .box li{
     display: inline-block;
     margin: 6px;
@@ -59,7 +55,7 @@ body{
   .box li a{
     color: rgb(90, 90, 90);
     text-decoration: none;
-    font-size: 100%;
+    font-size: 70%;
     transition: all ease-in-out 250ms;
   }
   .box li a:hover{
@@ -73,7 +69,7 @@ body{
 
 .navbar{
   position: fixed;
-  background-color: transparent;
+  background-color: white;
   width: 100%;
   padding: 30px 0;
   top: 0;
@@ -94,52 +90,18 @@ body{
 }
 
 
-.menu-toggler{
-  background: none;
-  width: 30px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  outline: none;
-  z-index: 999;
-  display: none;
-}
-
-.menu-toggler span{
-  display: block;
-  height: 3px;
-  background-color: rgb(90, 90, 90);
-  margin: 6px 0;
-  position: relative;
-  transition: .3s linear;
-}
-
 .navbar-menu a{
   color: rgb(90, 90, 90);
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
   transition: .2s linear;
+ 
 }
 
 .navbar-menu a:hover{
   color: #070707;
 }
-
-.sticky{
-  background-color: white;
-  padding: 18px 0;
-}
-
-
-.sticky .navbar-menu a{
-  color:  rgb(90, 90, 90);;
-}
-
-.sticky .menu-toggler span{
-  background-color: rgb(90, 90, 90);
-}
-
 
 
 footer,header,main,section{
@@ -163,7 +125,7 @@ main{
 }
 
 
-@media screen and (min-width:640px){
+@media screen and (min-width：300px){
 
 .flex-container{display:flex
 }
@@ -184,48 +146,3 @@ main{
   background:#fff
 }
 
-@media screen and (max-width: 980px){
-  .menu-toggler{
-    display: block;
-  }
-
-  .navbar-menu{
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    background-color: #fff;
-    top: 0;
-    right: -100%;
-    max-width: 400px;
-    padding: 80px 50px;
-    transition: .3s linear;
-  }
-
-  .navbar-menu a{
-    display: block;
-    font-size: 30px;
-    margin: 30px 0;
-  }
-
-  .sticky .navbar-menu{
-    background-color: #fff;
-  }
-  
-  .navbar-menu.active{
-    right: 0;
-  }
-
-  .menu-toggler.active span:nth-child(1){
-    transform: rotate(-45deg);
-    top: 4px;
-  }
-
-  .menu-toggler.active span:nth-child(2){
-    opacity: 0;
-  }
-
-  .menu-toggler.active span:nth-child(3){
-    transform: rotate(45deg);
-    bottom: 14px;
-  }
-}
