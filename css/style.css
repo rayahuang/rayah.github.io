@@ -19,16 +19,16 @@ body{
 
   .box{
     width: -webkit-fill-available;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgb(255, 255, 255);
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: white;
+    color: rgb(90, 90, 90);
     font-family: 'Century Gothic',sans-serif;
   }
   .box-img{
-    border-radius: 50%;
+    border-radius: 0%;
     width: 50%;
     height: 50%;
   }
@@ -43,9 +43,11 @@ body{
     font-weight: 100;
   }
   .box p{
+    font-size: 16px;
     text-align: center;
   }
   ul{
+    font-size: 16px;
     margin: 0;
     padding: 0;
   }
@@ -55,13 +57,13 @@ body{
     list-style: none;
   }
   .box li a{
-    color: white;
+    color: rgb(90, 90, 90);
     text-decoration: none;
-    font-size: 200%;
+    font-size: 100%;
     transition: all ease-in-out 250ms;
   }
   .box li a:hover{
-    color: #b9b9b9;
+    color: rgb(0, 0, 0);;
   }
 
    .wrapper{
@@ -106,7 +108,7 @@ body{
 .menu-toggler span{
   display: block;
   height: 3px;
-  background-color: rgb(250, 12, 24);
+  background-color: rgb(90, 90, 90);
   margin: 6px 0;
   position: relative;
   transition: .3s linear;
@@ -121,21 +123,21 @@ body{
 }
 
 .navbar-menu a:hover{
-  color: #070707 !important;
+  color: #070707;
 }
 
 .sticky{
-  background-color: rgb(200, 255, 0);
+  background-color: white;
   padding: 18px 0;
 }
 
 
 .sticky .navbar-menu a{
-  color:  rgb(0, 81, 255);
+  color:  rgb(90, 90, 90);;
 }
 
 .sticky .menu-toggler span{
-  background-color: rgb(233, 5, 157);
+  background-color: rgb(90, 90, 90);
 }
 
 
@@ -144,7 +146,7 @@ footer,header,main,section{
   display: block;
   margin:0;
   padding:1.25rem;
-  border:1px solid #000;
+  border:1px solid #fff;
   color:#fff
 }
 
@@ -175,7 +177,7 @@ main{
 
 
 .footer{
-  border:1 px solid #000
+  border:1 px solid #fff
 }
 
 .footer{
@@ -191,7 +193,7 @@ main{
     position: fixed;
     height: 100vh;
     width: 100%;
-    background-color: #08b3f7;
+    background-color: #fff;
     top: 0;
     right: -100%;
     max-width: 400px;
@@ -206,7 +208,7 @@ main{
   }
 
   .sticky .navbar-menu{
-    background-color: #ebfc02;
+    background-color: #fff;
   }
   
   .navbar-menu.active{
