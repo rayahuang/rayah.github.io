@@ -1,12 +1,8 @@
-*,:after,:before{
-  box-sizing: border-box
-}
+
 
 html{
   font-size: 100%
 }
-
-
 
 body{
     margin: 0;
@@ -104,45 +100,10 @@ body{
 }
 
 
-footer,header,main,section{
+footer,main,section{
   display: block;
   margin:0;
   padding:1.25rem;
   border:1px solid #fff;
   color:#fff
 }
-
-main{
-  background:#fff
-}
-
-.header{
-  background:#fff
-}
-
-.hero{
-  background:#fff
-}
-
-
-@media screen and (min-width：300px){
-
-.flex-container{display:flex
-}
-}
-
-.content{
-  flex:1;
-  background:#fff
-}
-
-
-
-.footer{
-  border:1 px solid #fff
-}
-
-.footer{
-  background:#fff
-}
-
