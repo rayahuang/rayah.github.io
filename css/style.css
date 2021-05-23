@@ -76,7 +76,7 @@ body{
 .inner-width{
   max-width: 1300px;
   margin: auto;
-  padding: 0 40px;
+  padding: 0;
 }
 
 .navbar .inner-width{
