@@ -29,8 +29,8 @@ body{
   }
   .box-img{
     border-radius: 0%;
-    width: -webkit-fill-available;
-    height: 50%;
+    width: 80%;
+    height: 80%;
   }
   .box h1{
     font-size: 40px;
